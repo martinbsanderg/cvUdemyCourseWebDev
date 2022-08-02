@@ -1,73 +1,70 @@
-<!DOCTYPE html> <!-- Tells the browser what kind of document this is -->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-  <!-- Tells the browser how it shuold handle the page -->
   <meta charset="utf-8">
-  <!--Inkluderer alle symboler i unicode biblioteket -->
-  <title>Martin's personal webpage</title>
+  <title>Martin B. Sandberg</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="martinbildet.png" alt="Profilbilde av Martin" width="300" height="300"></td>
-      <td>
-        <h1>Martin B. Sandberg</h1>
-        <p> <em>UX designer </em>and <em> certified <strong>bad ass</strong></em> </p>
-        <p>Jeg er en UX designer og aspirerende front end utvikler. Elsker kaffe</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Martin</h1>
+    <h2 id="subtitle">Designer and web developer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-png">
+    <img src="images/mountain.png" alt="mountain-png">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/martinbildet.png" alt="profile-picture" class="profile-picture">
+      <h2>Hello</h2>
+      <p class="intro">I'm a reschooled Psychology student with an interest in tech and innovation.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="ux-picture" src="images/ui.png" alt="ui.png">
+        <h3>UX & UI Design</h3>
+        <p>For 2 years I've worked as an UX/UI Designer at <a href="https://www.mnemonic.io/">Mnemonic</a>- a cyber security firm.
+          My projects have been focused on imporving internal systems and create new tools for analysis.
+          Education vise if have BC-degree in Psychology from the <a href="https://www.ntnu.edu/studies/bpsy">Technical University of Norway</a> and a BC-degree in Informatics: Design, Use and Interaction from <a
+            href="https://www.uio.no/studier/program/inf-design/">University of Oslo.</a></p>
+      </div>
+      <div class="skill-row">
+        <img class="frontend-picture" src="images/frontend.png" alt="frontend.png">
+        <h3>Front-end developer</h3>
+        <p >I have also completeded a Master's Degree in software and system architecture at UiO where I created a web-application in React. In addition, I have taken several online courses on web development.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I'm always open for a chat!</h3>
+      <p>If you are looking to hire for a project or have any other questions, please send me an email.</p>
+      <div class="button">
+      <a class="btn" href="mailto:martinbsandberg@gmail.com">CONTACT ME</a>
+    </div>
+    </div>
+  </div>
 
 
-  <hr size="2" noshade>
-  <h3>Utdanning</h3>
-  <ul>
-    <li><a href="https://www.ntnu.no/studier/bpsy">NTNU Psychology BC</a></li>
-    <li>UiO Informatics and design BC</li>
-    <li>UiO Informatics, software development MS</li>
-  </ul>
-  <hr>
+  <div class="bottom-container">
+    <div class:"links-box">
+    <a class="footer-link" href="https://www.linkedin.com/in/martin-bols%C3%B8nes-sandberg-58b8a4118">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
 
-  <!-- Work experience -->
-  <h3>Work experience</h3>
-  <table>
+  </div>
+    <p class="credits">© Martin B. Sandberg.</p>
+  </div>
 
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>2014-2018 </td>
-        <td>President of the United states</td>
-      </tr>
-      <tr>
-        <td>2018</td>
-        <td>Secret agent</td>
-      </tr>
-    </tbody>
-
-  </table>
-  <!-- Skills -->
-  <h3>My skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Fotball</td>
-      <td>⭐️</td>
-    </tr>
-    <tr>
-      <td>Spise potetgull</td>
-      <td>⭐️⭐️⭐️⭐️</td>
-    </tr>
-  </table>
-
-  <a href="hobbies.html">My hobbies</a>
-  <a href="contactinfo.html">Contact info</a>
 </body>
 
 </html>
